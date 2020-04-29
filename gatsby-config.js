@@ -1,19 +1,26 @@
+/* eslint-disable @typescript-eslint/camelcase */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Dev Projects`,
+    description: `Learn by doing.`,
+    author: `@mikedane`,
+    dog: `german shepherd`,
   },
   plugins: [
+    `gatsby-plugin-postcss`,
+    `gatsby-plugin-typescript`,
+    `gatsby-plugin-typescript-checker`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}/src/images`,
+        path: `${__dirname}/src/`,
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-graphql-codegen`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
