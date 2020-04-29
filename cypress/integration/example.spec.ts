@@ -3,7 +3,5 @@ context('Actions', () => {
     cy.visit('http://localhost:8000')
   })
 
-  it('works', () => {
-
-  })
+  it('works', () => {}) // eslint-disable-line
 })

@@ -43,10 +43,8 @@ Kick off your project with this default boilerplate. This starter contains all t
 A quick look at the features included with this startup:
 
 - [x] Typescript
-- [ ] Eslint, Stylelint, Prettier (w/ VS Code support)
-- [ ] Jest + React Testing Library, Cypress
-- [ ] Storybook
+- [x] Eslint, Prettier (w/ VS Code support)
+- [x] Jest + React Testing Library, Cypress
+- [x] Storybook
 - [ ] Tailwind CSS, Emotion
 - [ ] Github Actions CI file
-
-

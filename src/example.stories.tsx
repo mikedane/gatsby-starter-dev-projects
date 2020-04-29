@@ -1,6 +1,7 @@
-import React from 'react';
-import { storiesOf } from '@storybook/react';
+import React from 'react'
+import { storiesOf } from '@storybook/react'
+import { checkA11y } from '@storybook/addon-a11y'
 
-const story = storiesOf('Components|Example', module)
+const story = storiesOf('Components|Header', module).addDecorator(checkA11y)
 
-story.add('Example Component', () => <div>Hello World</div>);
+story.add('Header Component', () => <div>Example</div>)
