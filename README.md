@@ -46,5 +46,5 @@ A quick look at the features included with this startup:
 - [x] Eslint, Prettier (w/ VS Code support)
 - [x] Jest + React Testing Library, Cypress
 - [x] Storybook
-- [ ] Tailwind CSS, Emotion
+- [x] Tailwind CSS, Emotion
 - [ ] Github Actions CI file

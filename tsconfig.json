@@ -14,5 +14,5 @@
     "preserveConstEnums": true,
     "types": ["cypress", "node"]
   },
-  "include": ["**/*.ts"]
+  "include": ["**/*.ts", "src/components/test.stories.tsx"]
 }
