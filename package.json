@@ -19,7 +19,7 @@
     "type-check": "tsc",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook",
-    "lint": "eslint --fix --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx"
+    "lint": "eslint --fix --ignore-path .eslintignore . --ext ts --ext tsx --ext js --ext jsx"
   },
   "dependencies": {
     "@types/cypress": "^1.1.3",

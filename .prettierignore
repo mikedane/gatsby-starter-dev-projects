@@ -6,3 +6,4 @@ node_modules
 .prettierignore
 cypress/videos
 cypress/screenshots
+.eslintignore
